@@ -2,9 +2,9 @@
   "name": "button-modular-libary",
   "version": "1.0.0",
   "description": "A modular button component library built with React and CSS Modules",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/button-modular-libary.umd.js",
+  "module": "dist/button-modular-libary.es.js",
+  "types": "dist/button-modular-libary.d.ts",
   "files": [
     "dist"
   ],
