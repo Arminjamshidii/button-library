@@ -1,12 +1,63 @@
-# React + Vite
+📦 button-modular-library
+A modular and customizable button component library built with React and CSS Modules.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+💅 Predefined variants: primary, secondary, submit, delete
 
-Currently, two official plugins are available:
+📏 Multiple sizes: sm, md, lg
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ Built with React & CSS Modules
 
-## Expanding the ESLint configuration
+🛠️ Easy to integrate and extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Installation
+If you’ve published it to npm:
+
+bash
+Copy
+Edit
+npm install button-modular-library
+If you're using it locally for development:
+
+bash
+Copy
+Edit
+npm install /path/to/button-modular-library
+🔧 Usage
+jsx
+Copy
+Edit
+import { Button } from 'button-modular-library';
+
+function App() {
+  return (
+    <>
+      <Button variant="primary" size="md">Primary</Button>
+      <Button variant="submit" size="sm">Submit</Button>
+      <Button variant="secondary" size="sm">Secondary</Button>
+      <Button variant="delete" size="lg">Delete</Button>
+    </>
+  );
+}
+
+
+🧩 Props
+
+Prop	Type	Default	Description
+variant	string	"primary"	Type of button (primary, submit, etc.)
+size	string	"md"	Button size (sm, md, lg)
+children	ReactNode	–	Button label or content
+
+
+📁 File Structure
+
+button-modular-library/
+├── src/
+│   ├── components/
+│   │   └── Button.jsx
+│   │   └── Button.module.css
+│   └── index.js
+├── dist/
+├── package.json
+├── vite.config.js
+└── README.md

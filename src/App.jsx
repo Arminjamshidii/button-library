@@ -1,5 +1,3 @@
-import './App.css'
-
 import './App.css';
 import Button from './components/Button';
 
@@ -17,7 +15,7 @@ function App() {
       </Button>
 
       {/* Secondary button with small size */}
-      
+
       <Button variant="secondary" size="sm">
         Secondary Button
       </Button>
