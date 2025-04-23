@@ -11,6 +11,7 @@ A modular and customizable button component library built with React and CSS Mod
 🛠️ Easy to integrate and extend
 
 📦 Installation
+
 If you’ve published it to npm:
 
 bash
@@ -23,7 +24,9 @@ bash
 Copy
 Edit
 npm install /path/to/button-modular-library
+
 🔧 Usage
+
 jsx
 Copy
 Edit
@@ -43,13 +46,16 @@ function App() {
 
 🧩 Props
 
+
 Prop	Type	Default	Description
 variant	string	"primary"	Type of button (primary, submit, etc.)
 size	string	"md"	Button size (sm, md, lg)
 children	ReactNode	–	Button label or content
 
 
+
 📁 File Structure
+
 
 button-modular-library/
 ├── src/
